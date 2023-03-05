@@ -1,0 +1,47 @@
+<head>
+
+</head>
+
+<body>
+    <header>
+        <h1>
+            Cupcake Ipsum
+        </h1>
+    </header>
+
+    <nav>
+
+    </nav>
+
+    <Main>
+        <h2>
+            cupcakes are yum!
+        </h2>
+
+        <p>
+            Chocolate cake tart chocolate cake liquorice lemon drops tiramisu chupa chups oat cake chocolate.
+        </p>
+        <h3>
+            Yummy chocolate
+        </h3>
+
+        <ul>
+            <li>
+                bars
+                <img src="" alt="">
+            </li>
+            <li>
+                liquid
+            </li>
+            <li>
+                scents
+            </li>
+        </ul>
+        <a href="https://www.youtube.com/watch?v=VyrnszoNBHc">
+
+        </a>
+    </Main>
+    <footer>
+        i dont even really like chocolate.
+    </footer>
+</body>
