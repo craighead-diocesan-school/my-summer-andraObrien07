@@ -47,3 +47,21 @@
         i dont even really like chocolate.
     </footer>
 </body>
+
+<style>
+    li {
+        vertical-align: text-top;
+    }
+
+    a {
+        margin: bottom 10px;
+        float: right;
+    }
+
+    img {
+        display: block;
+        width: 29%;
+        border-radius: 50%;
+        filter: grayscale(50%);
+    }
+</style>
