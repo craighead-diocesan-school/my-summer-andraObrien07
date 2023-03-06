@@ -65,7 +65,7 @@
         display: block;
         width: 29%;
         border-radius: 50%;
-        filter: grayscale(50%);
+        filter: saturate(200%);
     }
 
     body {
