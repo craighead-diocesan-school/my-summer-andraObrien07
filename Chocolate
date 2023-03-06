@@ -30,15 +30,21 @@
         <ul>
             <li>
                 bars
-                <img src="crunchies.webp" alt="crunhcie bars">
+                <Div>
+                    <img src="crunchies.webp" alt="crunhcie bars">
+                </Div>
             </li>
             <li>
                 liquid
-                <img src="liquid.jpeg" alt="liquid chocolate">
+                <Div>
+                    <img src="liquid.jpeg" alt="liquid chocolate">
+                </Div>
             </li>
             <li>
                 scents
-                <img src="scent.webp" alt="scent choclate">
+                <div>
+                    <img src="scent.webp" alt="scent choclate">
+                </div>
             </li>
         </ul>
         <a href="https://www.youtube.com/watch?v=VyrnszoNBHc">
@@ -76,6 +82,12 @@
         vertical-align: text-top;
     }
 
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
     a {
         margin: bottom 10px;
 
@@ -87,6 +99,7 @@
         width: 29%;
         border-radius: 50%;
         filter: saturate(200%);
+        height: 15em;
     }
 
     body {
