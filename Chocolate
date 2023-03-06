@@ -48,8 +48,9 @@
             </li>
         </ul>
         <a href="https://www.youtube.com/watch?v=VyrnszoNBHc">
-
+            super insightful Chocolate video
         </a>
+
     </Main>
     <footer>
         i dont even really like chocolate. But i do like dylan obrien.
@@ -72,6 +73,7 @@
 
     footer {
         grid-area: f;
+        padding-bottom: 10%;
     }
 
     nav {
@@ -89,9 +91,10 @@
     }
 
     a {
-        margin: bottom 10px;
 
+        display: block;
         color: rgb(69, 8, 127);
+        padding-bottom: 10%;
     }
 
     img {
