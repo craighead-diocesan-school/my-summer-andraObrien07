@@ -1,5 +1,7 @@
 <head>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mynerve&family=Neucha&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -69,5 +71,18 @@
     body {
         background-color: rgb(239, 224, 205);
         color: rgb(69, 8, 127);
+        font-family: 'Neucha', cursive;
+    }
+
+    a:hover {
+        color: rgba(242, 170, 213, 0.923);
+    }
+
+    ul:hover {
+        color: rgb(134, 129, 237);
+    }
+
+    h1 {
+        font-family: 'Mynerve', cursive;
     }
 </style>
