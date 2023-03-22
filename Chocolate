@@ -15,7 +15,7 @@
         <a href="index.html">My Summer</a>
     </nav>
 
-    <Main>
+    <main>
         <h2>
             cupcakes are yum!
         </h2>
@@ -26,6 +26,14 @@
         <h3>
             Yummy chocolate
         </h3>
+
+        <h2> My Flexigrid: </h2>
+
+        <div>
+            <img src="tree1.webp" alt="First tree">
+            <img src="tree2.webp" alt="Second tree">
+            <img src="tree3.webp" alt="Third tree">
+        </div>
 
         <ul>
             <li>
@@ -52,16 +60,22 @@
         </a>
 
 
-    </Main>
+    </main>
+
     <footer>
         i dont even really like chocolate. But i do like dylan obrien.
     </footer>
 </body>
 
 <style>
+    div {
+        display: flex;
+    }
+
     body {
         display: grid;
-        grid: " h    .    " auto "   n  m   " auto " .    m    " auto " f   .    " auto / auto auto auto auto;
+        grid:
+            " h   h   h " auto " n   m   m " auto " .   m   m " auto / auto auto auto;
     }
 
     header {
@@ -74,7 +88,6 @@
 
     footer {
         grid-area: f;
-        padding-bottom: 10%;
     }
 
     nav {
@@ -85,12 +98,6 @@
         vertical-align: text-top;
     }
 
-    div {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-
     a {
 
         display: block;
@@ -99,11 +106,11 @@
     }
 
     img {
-        display: block;
-        width: 29%;
-        border-radius: 50%;
-        filter: saturate(200%);
-        height: 15em;
+        /* display: block; */
+        /* width: 5em; */
+        /* border-radius: 50%; */
+        /* filter: saturate(200%); */
+        height: 10em;
     }
 
     body {
